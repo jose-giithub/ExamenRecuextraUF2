@@ -9,3 +9,31 @@ h1 {
     font-size: 2em;
     text-align: center;
 }
+/* Pongo la imagen que ocupe todo */
+#ex1 {
+    /* Añadir este atributo para que luego la imagen del chcoe se pueda colocar fija dentro de este contenedor */
+      position: relative;
+      /* Oculta cualquier cosa que se exceda del contenedor */
+      /* overflow: hidden; */
+  }
+  #ex1 img.fons {
+    width: 100%;
+}
+
+
+#ex1 img.cohete {
+    position: absolute; 
+    width: 22%; 
+    right: 40%; 
+    top: 0; 
+    animation: descenso-cohete 8s 1 ease-out forwards; 
+}
+
+@keyframes descenso-cohete {
+    0% {
+        top: 0%; 
+    }
+    100% {
+        top: 60%; 
+    }
+}
