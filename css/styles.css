@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    /* El tamalo de la imagen del banner sera igual a max-width */
+    max-width: 1000px;
+    margin: 80px 200px;
+    padding: 0;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
